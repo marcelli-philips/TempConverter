@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe280079-6151-41fd-816d-673774c0ad28" name="Changes" comment="" />
+    <list default="true" id="fe280079-6151-41fd-816d-673774c0ad28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/actions/diga-ola-action/action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/actions/diga-ola-action/action.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/example/TempConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/example/TempConverterTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +66,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TempConverterTest">
+  <component name="RunManager" selected="Gradle.TempConverterTest.testCelsiusParaFahrenheit">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="TempConverter.app.main" />
@@ -189,8 +194,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TempConverterTest" />
         <item itemvalue="Gradle.TempConverterTest.testCelsiusParaFahrenheit" />
+        <item itemvalue="Gradle.TempConverterTest" />
         <item itemvalue="Gradle.TempConverterTest.testFahrenheitParaCelsius" />
         <item itemvalue="Gradle.TempConverterTest.testTipoInvalido" />
         <item itemvalue="Application.App" />

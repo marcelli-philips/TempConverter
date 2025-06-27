@@ -7,7 +7,10 @@ jobs:
   DigaOla:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/actions/diga-ola-action
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Diga ola
+        uses: ./.github/actions/diga-ola-action
   Build:
     runs-on: ubuntu-latest
     steps:

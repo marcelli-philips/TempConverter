@@ -12,7 +12,7 @@ public class TempConverterTest {
         tempConverter.setTemperatura(0);
 
         String resultado = tempConverter.calcular();
-        assertEquals("0,00 °C = 32,00 °F", resultado);
+        assertEquals("0.00 °C = 32.00 °F", resultado);
     }
 
     @Test
@@ -22,7 +22,7 @@ public class TempConverterTest {
         tempConverter.setTemperatura(212);
 
         String resultado = tempConverter.calcular();
-        assertEquals("212,00 °F = 99,00 °C", resultado);
+        assertEquals("212.00 °F = 99.00 °C", resultado);
     }
 
     @Test
