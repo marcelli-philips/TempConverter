@@ -7,7 +7,7 @@ jobs:
   DigaOla:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Ola"
+      - uses: ./.github/actions/diga-ola-action
   Build:
     runs-on: ubuntu-latest
     steps:
