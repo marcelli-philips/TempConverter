@@ -1,0 +1,23 @@
+name: build
+on:
+  push:
+  branch:
+      - main
+jobs:
+  DigaOla:
+    runs-on: ubunto-latest
+    steps: 
+      - run: echo "ola"
+  Build:  
+    runs-on: ubunto-latest
+    steps: 
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v2
+        with:
+          java-version: '21'
+          distruibuition: 'temurin'
+      
+      - name: Setup gradle
+        uses: gradle/actions/setup-gradle@v4
+        
+      - run: ./gradlew build
