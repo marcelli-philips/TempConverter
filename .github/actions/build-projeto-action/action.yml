@@ -1,0 +1,9 @@
+name: build
+description: "Action para realizar a build do projeto"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Build
+      run: ./gradlew build
+      shell: bash

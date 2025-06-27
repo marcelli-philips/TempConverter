@@ -1,0 +1,9 @@
+name: SetGradlePermission
+description: "Action para configurar a permissao de execucao do arquvivo gradlew"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set Gradle Permission
+      run: chmod +x ./gradlew
+      shell: bash

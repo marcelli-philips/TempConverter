@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe280079-6151-41fd-816d-673774c0ad28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/actions/diga-ola-action/action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/actions/diga-ola-action/action.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/example/TempConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/example/TempConverterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2z0LWzWNHA8grqLGZXF8XgRc3Ez" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
